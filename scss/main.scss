@@ -1,0 +1,150 @@
+//footer//
+@import url(_footer.scss);
+
+//Contactos//
+@import url(_contacto.scss);
+
+//blog//
+@import url(_blog.scss);
+
+//servicios//
+@import url(_servicios.scss);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    height: 100%;
+}
+
+
+h3{
+    text-align: center;
+}
+
+main{
+    text-align: center;
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url(../img/fondomain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+.natural{
+    border-radius: 20%;
+}
+
+div p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.container{
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.natural{
+    color: rgb(0, 0, 0);
+}
+
+.vermas{
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    margin: 20 auto;
+    margin-bottom: 50px;
+}
+
+///footer///
+
+.footer h3{
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: rgb(179, 165, 165);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    margin-top: auto;
+}   
+
+
+.footer h4{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: 50px;
+    text-align: right;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.social-link a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;    
+    background-color: dimgrey;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all .5s ease;
+}
+
+.social-link a:hover{
+    background-color: rgb(11, 204, 204);
+
+}
+
+.lf{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+///galeria-servicios///
+
+.galeria{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 32px;
+}
+
+
+.img_galeria{
+    width: 100%;
+    height: 200px, auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 0px 30px #000;
+}
+
+
+///video///
+
+.video{
+    min-width: 350px;
+    min-height: 350px;
+}
+
